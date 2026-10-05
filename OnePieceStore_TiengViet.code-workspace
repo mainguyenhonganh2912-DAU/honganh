@@ -1,0 +1,72 @@
+{
+	"folders": [
+		{
+			"name": "1. 🛒 GIAO DIỆN KHÁCH HÀNG (Trang chủ, Đăng nhập, Giỏ hàng, Thanh toán...)",
+			"path": "giao_dien/cua_hang",
+			"settings": {
+				"files.exclude": {
+					"nguoi_ban": true,
+					"quan_tri": true
+				}
+			}
+		},
+		{
+			"name": "2. 🏪 KÊNH NGƯỜI BÁN - SELLER (Tổng quan, Sản phẩm, Đơn hàng shop)",
+			"path": "giao_dien/cua_hang/nguoi_ban"
+		},
+		{
+			"name": "3. 👑 QUẢN TRỊ ADMIN TRÊN WEB (Quản lý đơn, Thành viên, Danh mục)",
+			"path": "giao_dien/cua_hang/quan_tri"
+		},
+		{
+			"name": "4. 📐 KHUNG GIAO DIỆN CHUNG & BACKEND ADMIN (base.html, admin dashboard)",
+			"path": "giao_dien",
+			"settings": {
+				"files.exclude": {
+					"cua_hang": true
+				}
+			}
+		},
+		{
+			"name": "5. 🧠 CODE XỬ LÝ LOGIC & DATABASE (views.py, models.py, urls.py...)",
+			"path": "cua_hang",
+			"settings": {
+				"files.exclude": {
+					"**/__pycache__": true,
+					"migrations": true
+				}
+			}
+		},
+		{
+			"name": "6. 🎨 CSS, JAVASCRIPT & HÌNH ẢNH MÔ HÌNH (style.css, main.js, hinh_anh)",
+			"path": "tai_nguyen",
+			"settings": {
+				"files.exclude": {
+					"admin": true
+				}
+			}
+		},
+		{
+			"name": "7. ⚙️ CẤU HÌNH DỰ ÁN DJANGO (settings.py, urls.py gốc)",
+			"path": "du_an",
+			"settings": {
+				"files.exclude": {
+					"**/__pycache__": true
+				}
+			}
+		},
+		{
+			"name": "8. 📁 TOÀN BỘ FILE GỐC CỦA DỰ ÁN",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/.pytest_cache": true,
+			"**/venv": true
+		},
+		"workbench.editor.enablePreview": false,
+		"python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe"
+	}
+}
